@@ -110,11 +110,34 @@
             </tbody>
         </table>
 
+    <section id="contact-form">
+        <h2>Contacta a Rick Sanchez</h2>
+        <p>¿Tienes alguna idea loca, problema dimensional o solo quieres una firma? Llena el formulario y Rick lo considerará (o lo ignorará).</p>
+        <form>
+            <!-- Campo para el nombre -->
+            <label for="name">Tu nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ej: Morty Smith" required>
+            
+            <!-- Campo para el motivo -->
+            <label for="reason">¿Por qué deseas contactarlo?</label>
+            <input type="text" id="reason" name="reason" placeholder="Ej: Necesito ayuda con un problema científico" required>
+            
+            <!-- Campo para el correo electrónico -->
+            <label for="email">Tu correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ej: morty@example.com" required>
+            
+            <!-- Botón de envío -->
+            <button type="submit">Enviar mensaje a Rick</button>
+        </form>
+    </section>
+
+
 
     <footer id="contact">
         <p>Contacto: RickSanchez@universe.com</p>
         <p>&copy; 2024 Rick and Morty Fans</p>
     </footer>
+    
 </body>
 
 </html>

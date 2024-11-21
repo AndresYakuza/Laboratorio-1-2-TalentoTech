@@ -226,4 +226,76 @@ table td:hover {
     transition: background-color 0.3s ease;
 }
 
+#contact-form {
+    background-color: #162447;
+    color: #eaeaea;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#contact-form h2 {
+    color: #e43f5a;
+    margin-bottom: 10px;
+}
+
+#contact-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #eaeaea;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact-form label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#contact-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f4068;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#contact-form input:focus {
+    outline: none;
+    background-color: #1b1b2f;
+    border: 2px solid #e43f5a;
+}
+
+#contact-form button {
+    padding: 12px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #e43f5a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #e60023;
+}
+
+#contact-form input::placeholder {
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+
 
